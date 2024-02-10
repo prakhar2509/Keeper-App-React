@@ -1,0 +1,36 @@
+.note form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .note input,
+  .note textarea {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  
+  .note button {
+    border: none;
+    background-color: #f5ba13;
+    color: #ffffff;
+    width: 40px;
+    height: 40px; /* Set a fixed height to create a perfect circle */
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: auto; /* Push the button to the boundary of the div */
+  }
+  
+  .note button:hover {
+    background-color: #f5ba13;
+  }
+  
+  .deletebtn {
+    border: none;
+    padding: 10px;
+    float: right;
+    color: #f5ba13;
+  }
+  
